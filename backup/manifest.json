@@ -132,9 +132,9 @@
           "reason": "excluded suffix: .pdf"
         }
       ],
-      "files_copied": 627,
+      "files_copied": 633,
       "files_excluded": 6,
-      "files_redacted": 131
+      "files_redacted": 132
     }
   },
   "public_safe": true,
@@ -149,5 +149,5 @@
     ],
     "skills": "/root/.hermes/skills"
   },
-  "timestamp_utc": "2026-05-21T07:40:29Z"
+  "timestamp_utc": "2026-05-21T10:07:04Z"
 }

@@ -19,6 +19,7 @@ Load this skill when any of these are true:
 - The user wants **anime-inspired**, **cinematic**, or **viral short** output.
 - The user wants a **45–90 second short**, but Magnific's best available model only produces short clips that must be stitched together.
 - The user wants **Andrew voice** or another external TTS voice over a Magnific-generated video.
+- The user uploads a real-estate brochure/PDF and asks for a branded luxury teaser using stock/generated footage, especially when the output must be landscape, watermark-free, location-correct, and based on brochure amenities/location/brand facts.
 
 ## Core workflow
 
@@ -347,3 +348,4 @@ For a 45–90 second short:
 - `references/magnific-live-ops-notes.md` — compact operating checklist for sequencing frames before videos, verifying settings before every generate click, choosing clean references, and switching to another Unlimited model when the current one is saturated.
 - `references/gateway-independent-magnific-runs.md` — systemd-based pattern for long Magnific jobs that must survive Telegram gateway restarts and use a pinned per-job LLM model.
 - `references/consistency-first-rebuild-notes.md` — corrective workflow for rejected AI-video shorts with character drift, scene drift, dead-air pacing, or fake vertical framing.
+- `references/brochure-driven-real-estate-teasers.md` — brochure/PDF-driven luxury real-estate teaser workflow: extract project facts, choose location-correct no-watermark stock, preserve exact logos, avoid floor plans, and audit final landscape deliverables.

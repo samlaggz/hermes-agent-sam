@@ -18,6 +18,8 @@ Create, clone, fork, configure, and manage GitHub repositories. Each section sho
 ## Prerequisites
 
 - Authenticated with GitHub (see `github-auth` skill)
+- For public backup/restore-kit repos, sanitize first and commit only reproducible restore materials. See `references/public-safe-restore-kit-repos.md`.
+- Before pushing a public restore-kit/backup repo, verify the exact local commit, remote refs, and a high-risk secret scan. If the remote repo is empty, `git ls-remote` may return no refs even though the repo exists; confirm with the GitHub API or `gh repo view` before assuming authentication failed. See `references/public-backup-push-checklist.md` for the deploy-key push and verification checklist.
 
 ### Setup
 

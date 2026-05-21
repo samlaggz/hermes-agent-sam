@@ -1,0 +1,153 @@
+{
+  "exclusions": {
+    "excluded_directory_names": [
+      ".DS_Store",
+      ".cache",
+      ".env",
+      ".git",
+      ".hg",
+      ".hub",
+      ".mypy_cache",
+      ".pytest_cache",
+      ".ruff_cache",
+      ".svn",
+      ".tox",
+      ".venv",
+      "Cookie",
+      "Cookies",
+      "__pycache__",
+      "auth.json",
+      "browser_profiles",
+      "build",
+      "cache",
+      "caches",
+      "cookie",
+      "cookies",
+      "databases",
+      "db",
+      "dist",
+      "env",
+      "index-cache",
+      "log",
+      "logs",
+      "node_modules",
+      "profiles",
+      "session",
+      "sessions",
+      "target",
+      "temp",
+      "tmp",
+      "venv"
+    ],
+    "generated_or_large": [
+      ".7z",
+      ".avi",
+      ".bin",
+      ".crt",
+      ".db",
+      ".db-shm",
+      ".db-wal",
+      ".flac",
+      ".gguf",
+      ".gif",
+      ".gz",
+      ".heic",
+      ".ico",
+      ".jpeg",
+      ".jpg",
+      ".key",
+      ".log",
+      ".mkv",
+      ".mov",
+      ".mp3",
+      ".mp4",
+      ".ogg",
+      ".onnx",
+      ".p12",
+      ".pdf",
+      ".pem",
+      ".pfx",
+      ".png",
+      ".pt",
+      ".pth",
+      ".rar",
+      ".safetensors",
+      ".sqlite",
+      ".sqlite3",
+      ".tar",
+      ".tgz",
+      ".wav",
+      ".webm",
+      ".webp",
+      ".zip"
+    ],
+    "runtime_private_data": [
+      "raw session transcripts",
+      "raw databases",
+      "browser profiles",
+      "logs"
+    ],
+    "secret_files": [
+      ".env",
+      "auth.json",
+      "OAuth tokens",
+      "API keys",
+      "private keys",
+      "cookies"
+    ]
+  },
+  "included": {
+    "config_found": true,
+    "env_variable_names_count": 16,
+    "memory": {
+      "excluded_samples": [],
+      "files_copied": 0,
+      "files_excluded": 0,
+      "files_redacted": 0
+    },
+    "skills": {
+      "excluded_samples": [
+        {
+          "path": ".hub",
+          "reason": "excluded name: .hub"
+        },
+        {
+          "path": "productivity/google-workspace/scripts/__pycache__",
+          "reason": "excluded name: __pycache__"
+        },
+        {
+          "path": "research/research-paper-writing/templates/colm2025/colm2025_conference.pdf",
+          "reason": "excluded suffix: .pdf"
+        },
+        {
+          "path": "research/research-paper-writing/templates/icml2026/icml_numpapers.pdf",
+          "reason": "excluded suffix: .pdf"
+        },
+        {
+          "path": "research/research-paper-writing/templates/icml2026/example_paper.pdf",
+          "reason": "excluded suffix: .pdf"
+        },
+        {
+          "path": "research/research-paper-writing/templates/iclr2026/iclr2026_conference.pdf",
+          "reason": "excluded suffix: .pdf"
+        }
+      ],
+      "files_copied": 627,
+      "files_excluded": 6,
+      "files_redacted": 131
+    }
+  },
+  "public_safe": true,
+  "redaction_marker": "<REDACTED_PUBLIC_BACKUP>",
+  "source_paths": {
+    "config": "/root/.hermes/config.yaml",
+    "env": "/root/.hermes/.env (names only, values excluded)",
+    "hermes_home": "/root/.hermes",
+    "memory": [
+      "/root/.hermes/MEMORY.md",
+      "/root/.hermes/USER.md"
+    ],
+    "skills": "/root/.hermes/skills"
+  },
+  "timestamp_utc": "2026-05-21T07:40:29Z"
+}

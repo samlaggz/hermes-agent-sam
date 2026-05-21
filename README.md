@@ -3,6 +3,10 @@
 This repository is a public-safe restore kit for a Hermes Agent setup.
 It is designed for bootstrapping a new server after Hermes Agent and an LLM provider are installed.
 
+## SEO / repo purpose
+
+Hermes Agent restore kit for **unblocked and unrestricted browsing workflows** on authorized websites, with or without GUI: Browser Use, live CDP Chromium, self-hosted watchable browser sessions, headless/non-GUI web browsing, web automation, CAPTCHA-aware browsing procedures, blocked-site diagnostics, and video-production skills. Credentials, cookies, browser profiles, and private runtime data are deliberately excluded.
+
 ## What is included
 
 - Sanitized Hermes config: `backup/config/config.yaml.sanitized`
